@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>University Web</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ </head>
+  <body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/download-removebg-preview.png"></a>  
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+           </div> 
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <h1>About Us</h1>
+    </section>
+
+<!-------------about us content-------------->
+<section class="about-us">
+  <div class="row">
+      <div class="about-col">
+          <h1>We're one of the best Engineering Universities among KPK</h1>
+          <p>UETM stands as a beacon of educational excellence, offering a rich 
+              blend of advanced programs and expert faculty. With a focus on innovation
+              and practical learning, UETM equips students with the skills needed for 
+              successful careers in engineering and technology. The university's inclusive
+              community and commitment to research create a dynamic environment, empowering
+              graduates to shape the future with their knowledge and expertise.</p>
+          <a href="https://www.uetmardan.edu.pk/uetm/" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+          <img src="images/about.jpeg" alt="About UET Mardan">
+      </div>
+  </div>
+</section>
+
+
+           
+<!------------footer------------>
+
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>We are now at the beginning of Web-Development <br>Email Us: <a href="mailto:komikhalils091@gmail.com">komikhalils091@gmail.com</a> <br>Phone: +92 335 8004262</p>
+     <div class="icons">
+         <i class="fa fa-facebook"></i>
+     </div>
+     <p>Made With <i class="fa fa-heart"></i> By Developer Komail</p>
+ </section>
+
+
+<!--------------------Javascript For Toogle Menu-------------------->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px"
+        }
+    </script>
+  </body>
+</html>

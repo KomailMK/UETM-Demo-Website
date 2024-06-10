@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Courses/UET Mardan</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ </head>
+  <body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/download-removebg-preview.png"></a>  
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                 <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+           </div> 
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <h1>Our Courses</h1>
+    </section>
+
+<!-----------------course------------------>
+  <section>
+      <div class="course">
+         <h1>Courses We Offer</h1>
+         <p>With 18 undergraduate and 24 graduate level degrees to choose from, UETM has a programme for everyone.<br>
+            Our five Schools have nurtured leaders in areas ranging from entrepreneurship, economics, mathematics,
+            engineering , education, writing, politics and business.</p>
+          <div class="row">
+               <div class="course-col">
+                   <h3>Undergraduate Programs:</h3>
+                   <p>UETM offers diverse undergraduate <br> programs providing a solid foundation in engineering and technology. These Bachelor of Science (BS) degrees emphasize                              fundamental concepts, practical skills, and real-world applications. With dedicated faculty and modern laboratories, students engage in hands-on learning, preparing                        for successful careers in their fields upon <br> graduation.</p>
+               </div> 
+               <div class="course-col">
+                   <h3>Graduate Programs:</h3>
+                   <p>UETM provides extensive graduate programs to deepen expertise in engineering and technology. These Master of Science (MS) degrees focus on advanced theoretical                           knowledge, innovative research, and specialized skills. With experienced faculty and cutting-edge facilities, students undertake rigorous academic work and projects,                       readying for leadership roles and advanced opportunities.</p>
+               </div> 
+               <div class="course-col">
+                   <h3>Post Graduation Programs:</h3>
+                   <p>UETM offers diverse postgraduate programs fostering advanced scholarship in engineering and technology. These Doctor of Philosophy (PhD) degrees emphasize in-depth                       research, critical analysis, and new knowledge creation. Supported by distinguished faculty and premier research centers, students engage in significant research,                          preparing for academic careers, high-level industry roles, and technological innovation.</p>
+               </div> 
+          </div>
+      </div>
+   </section>
+
+
+<!------------footer------------>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are now at the beginning of Web-Development <br>Email Us: <a href="mailto:komikhalils091@gmail.com">komikhalils091@gmail.com</a> <br>Phone: +92 335 8004262</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart"></i> By Developer Komail</p>
+        </section>
+
+
+<!--------------------Javascript For Toogle Menu-------------------->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px"
+        }
+    </script>
+  </body>
+</html>

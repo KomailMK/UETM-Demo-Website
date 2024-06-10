@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>UET Mardan/Blog</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ </head>
+  <body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/download-removebg-preview.png"></a>  
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                 <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+           </div> 
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <h1>Our Certificate & Onnline Program For 2023-2024</h1>
+    </section>
+
+<!------------blog page content------------>
+
+<section class="blog-content">
+     <div class="row">
+          <div class="bog-left">
+                <img src="images/humaira.jpg">
+                <h2>Our Certificate & Onnline Program For 2023-2024</h2>
+                <p>UETM prides itself on offering a comprehensive spectrum of degree programs,
+                  including Bachelor of Science (BS), Master of Science (MS), and Doctor of Philosophy (PhD) programs.
+                  In the undergraduate (BS) level, students are provided with a strong foundation in various engineering 
+                  and technology disciplines, allowing them to explore their interests and develop essential skills.
+                  The Master's (MS) programs offer advanced coursework, enabling students to specialize further and engage in 
+                  research, preparing them for leadership roles in their chosen fields.<br><br>
+                  For those aspiring to delve deeper into academia and research, UETM provides rigorous Doctor of Philosophy (PhD) programs.
+                  These programs are designed for individuals keen on making significant contributions to the academic and industrial sectors. 
+                  Through extensive research opportunities, collaboration with esteemed faculty, and access to cutting-edge resources, PhD students
+                  at UETM are nurtured into experts in their fields, driving innovation and shaping the future of technology.<br><br>               
+                  With a focus on hands-on learning, interdisciplinary research, and a commitment to excellence, UETM's degree programs 
+                  not only impart knowledge but also foster critical thinking, problem-solving abilities, and leadership skills. 
+                  Graduates emerge not only with degrees but with a deep understanding of their disciplines, positioning them as 
+                  leaders in the competitive global landscape. </p>
+                  
+                  <div class="comment-box">
+                       <h3>Leave a comment</h3>
+                         <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                         </form>              
+                  </div>
+          </div>
+          <div class="bog-right">
+              <h3>Post Categories</h3>
+              <div>
+                 <span>Computer Science</span>
+                 <span>42</span>
+              </div>
+              <div>
+                 <span>Data Sciencs</span>
+                 <span>42</span>
+              </div>
+              <div>
+                 <span>Artificial Intelligence</span>
+                 <span>42</span>
+              </div>
+              <div>
+                 <span>Computer Software Engineering</span>
+                 <span>50</span>
+              </div>
+              <div>
+                 <span>Telecommunication Engineering</span>
+                 <span>42</span>
+              </div>
+              <div>
+                 <span>Mechanical Engineering</span>
+                 <span>22</span>
+              </div>
+              <div>
+                 <span>Civil Engineering</span>
+                 <span>40</span>
+              </div>
+              <div>
+               <span>Electrical Engineering</span>
+               <span>40</span>
+            </div>
+            <div>
+               <span>BS English</span>
+               <span>40</span>
+            </div>
+            <div>
+               <span>Natural Sciences</span>
+               <span>40</span>
+            </div>
+          </div>
+     </div>
+</section>
+ 
+<!------------footer------------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are now at the beginning of Web-Development <br>Email Us: <a href="mailto:komikhalils091@gmail.com">komikhalils091@gmail.com</a> <br>Phone: +92 335 8004262</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+            </div>
+        <p>Made With <i class="fa fa-heart"></i> By Developer Komail</p>
+    </section>
+
+
+<!--------------------Javascript For Toogle Menu-------------------->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px"
+        }
+    </script>
+  </body>
+</html>
