@@ -18,7 +18,7 @@ This demo website is designed to provide an immersive and user-friendly experien
 To explore the demo website, follow these steps:
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username-here/uet-mardan-demo-website.git
+git clone https://github.com/KomailMK/uet-mardan-demo-website.git
 ```
 ### 2. Navigate to the project Direcory:
 ```bash
